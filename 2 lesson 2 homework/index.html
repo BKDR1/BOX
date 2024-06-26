@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qiyin boldi</title>
+    
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: blue;
+            margin: 0;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            background: yellow;
+            padding: 100px;
+            border-radius: 50px;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            color: white;
+            font-size: 24px;
+        }
+        .box span {
+            background-color: red;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="box"><span>Box</span></div>
+        <div class="box"><span>Box</span></div>
+        <div class="box"><span>Box</span></div>
+        <div class="box"><span>Box</span></div>
+        <div class="box"><span>Box</span></div>
+        <div class="box"><span>Box</span></div>
+        <div class="box"><span>Box</span></div>
+        <div class="box"><span>Box</span></div>
+    </div>
+</body>
+</html>
